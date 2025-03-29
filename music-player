@@ -1,30 +1,4 @@
-putting together himalayasingh’s music player ui code
-
-the code
-
-the code you use will differ depending on whether you use a burner website or a tumblr blog. if using a burner website, it’s ideal to have the css and js in a separate file but if you’re using tumblr, you can refer to the base code below for how it’s structured.
-
-
-    <html>
-    <head>
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
-    <style>
-    // insert the css from the codepen here
-    </style>
-    </head>
-    <body>
-    // insert the html code from the codepen here
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>
-    // insert the js code from the codepen here
-    </script>
-    </body>
-    </html>
-
-when the code has everything copied, it will look like this. if you’re having a hard time assembling the code to make it work, copy this longer edited one below and refer to the comments for which parts to edit and the “how to edit” for how to change it.
-
-
-    <html>
+<html>
     <head>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
     
@@ -680,17 +654,3 @@ when the code has everything copied, it will look like this. if you’re having 
       </script>
     </body>
     </html>
-    
-how to edit
-change the album art
-1. look for <div id="album-art"> in the <body> 
-2. each album art is in the <img src=””>. replace the url in the quotation marks with the url of your uploaded mp3 files.
-
-
-change the song titles etc
-1. album name - look for the albums = [ ‘album name’ ] in the js code and retype with whatever text you want in each of the ‘’
-2. song titles - look for the trackNames = [ ‘track name’ ] in the js code and retype with whatever text you want in each of the ‘’ this is literally right after the albums so you won’t have a hard time finding it
-3. mp3 - look for the trackUrl = [ ‘url’ ] in the js code and paste the url of the mp3 files in each of the ‘’ note: it has to end with the file extension
-
-
-note: the background art of this is the blurred album art of each song so if you want it to be plain white, you can change that in the #bg-artwork in the css. change the background-image:url(‘’) to background-color: #fff;
